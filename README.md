@@ -24,11 +24,11 @@ An identity is a set of public and private keys.
 - Private key
     - Secret key that only the client holding the identity knows
 - Calibration score
-    - Head of calibration attempts in the ledger
+    - Head of calibration attempts in the ledger?
 - Trust score
-    - 
+    - Sum or trust level changes in the ledger?
 - Contributions list
-
+    - List of all the contributions from the ledger?
 
 ### Contributions
 
