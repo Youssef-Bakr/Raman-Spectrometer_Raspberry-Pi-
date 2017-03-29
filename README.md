@@ -31,11 +31,21 @@ An identity is a set of public and private keys.
 
 
 ### Contributions
-#### Spectral Signature (Contribution)
-#### Spectral Signature Review (Contribution)
-#### Identification (Contribution)
 
+A contribution to the database.
+
+#### Spectral Signature (Contribution)
+
+A new signature, wether it is identified or not.
+
+#### Spectral Signature Review (Contribution)
+
+A signature for an existing signature, wether it is identified or not.
+
+#### Spectral Signature Identification (Contribution)
+
+An identification of a signature, wether it is identified or not.
 
 #### Confidence Level
 
-There are several ways to assign trusts to an identity, we could use a peer review system where as you said a machine could be assigned a trust value. Or we could assign a confidence value in a signature, so if the signature was only matched once, it would come up in search results but have a low base confidence score (perhaps boosted if the associated identity has a high trust score). And if this signature is validated by different identities it would see its score improve every time. And as you said, once it reaches a certain thresholds it gets permanently committed to the database (perhaps we could have archive nodes who maintain a copy of every signature above a certain threshold). 
+There are several ways to assign trusts to an identity, we could use a peer review system where a machine could be assigned a trust value. Or we could assign a confidence value in a signature, so if the signature was only matched once, it would come up in search results but have a low base confidence score (perhaps boosted if the associated identity has a high trust score). And if this signature is validated by different identities it would see its score improve every time. Once it reaches a certain thresholds it could get permanently committed to the database (perhaps we could have archive nodes who maintain a copy of every signature above a certain threshold). 
